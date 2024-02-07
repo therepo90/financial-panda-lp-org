@@ -1,47 +1,261 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Financial Panda - Your Trusted Financial Partner</title>
-    <meta name="description" content="Financial Panda is your trusted partner for financial solutions. Explore our services and start your financial journey with us.">
-    <meta name="keywords" content="Financial Panda, finance, financial solutions, investment, savings, loans">
-    <meta name="author" content="Your Name">
+<html lang="en" class=" asyewexcl idc0_350"><head>
+  <meta charset="utf-8">
+  <title>Financial Panda</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
 
-    <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Financial Panda - Your Trusted Financial Partner">
-    <meta property="og:description" content="Financial Panda is your trusted partner for financial solutions. Explore our services and start your financial journey with us.">
-    <meta property="og:url" content="https://www.financialpanda.pl/">
-    <meta property="og:image" content="url_do_obrazka.jpg">
-    <meta property="og:type" content="website">
-    <meta property="og:locale" content="en_US">
+<link rel="stylesheet" href="styles.css"><style type="text/css"></style><style>body[_ngcontent-serverApp-c3104568421] {
+  font-size: 16px;
+}
+@media screen and (max-width: 992px) {
+  body[_ngcontent-serverApp-c3104568421] {
+    font-size: 12px;
+  }
+}
+[_nghost-serverApp-c3104568421] {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.2);
+  min-height: 100vh;
+}
+.container[_ngcontent-serverApp-c3104568421] {
+  height: 100%;
+}
+.fancy-anim-overlay[_ngcontent-serverApp-c3104568421] {
+  touch-action: none;
+  pointer-events: none;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+@keyframes _ngcontent-serverApp-c3104568421_diagonalSlide {
+  0% {
+    transform: translate(-50%, -50%);
+  }
+  100% {
+    transform: translate(-50%, 50%);
+  }
+}
+.fancy-anim-overlay[_ngcontent-serverApp-c3104568421]::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(to bottom right, transparent 50%, #ffffff 50%);
+  animation: _ngcontent-serverApp-c3104568421_diagonalSlide 1s normal linear;
+}
 
-    <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Financial Panda - Your Trusted Financial Partner">
-    <meta name="twitter:description" content="Financial Panda is your trusted partner for financial solutions. Explore our services and start your financial journey with us.">
-    <meta name="twitter:image" content="url_do_obrazka.jpg">
-    <meta name="twitter:creator" content="@yourtwitterhandle">
 
-    <style>
-        /* Twoje istniejące style CSS pozostają bez zmian */
-    </style>
-</head>
+.loader-overlay[_ngcontent-serverApp-c3104568421] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+.loader[_ngcontent-serverApp-c3104568421] {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: _ngcontent-serverApp-c3104568421_spin 1s linear infinite;
+}
+@keyframes _ngcontent-serverApp-c3104568421_spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+</style><style>.logo[_ngcontent-serverApp-c2461943263] {
+  cursor: pointer;
+  width: 250px;
+  height: 180px;
+  display: block;
+  background-image: url(/assets/images/logo1.png);
+  background-color: transparent;
+  background-size: cover;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  transition: filter 0.3s ease;
+  margin-top: 40px;
+}
+.logo[_ngcontent-serverApp-c2461943263]:hover {
+  filter: brightness(1.5);
+}
+@media screen and (max-width: 992px) {
+  .logo[_ngcontent-serverApp-c2461943263] {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+}
+.card[_ngcontent-serverApp-c2461943263] {
+  width: 251px;
+  height: 287px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 30px 20px;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 30px;
+  display: block;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all 200ms;
+}
+@media screen and (max-width: 992px) {
+  .card[_ngcontent-serverApp-c2461943263] {
+    width: 300px;
+    height: 190px;
+  }
+}
+.content[_ngcontent-serverApp-c2461943263] {
+  color: black;
+  overflow: hidden;
+  padding-top: 12px;
+}
+.highlights[_ngcontent-serverApp-c2461943263] {
+  text-align: center;
+}
+.title[_ngcontent-serverApp-c2461943263] {
+  font-size: 2rem;
+  color: #3b38cd;
+  display: block;
+  border-bottom: 1px solid #3b38cd;
+  padding-bottom: 8px;
+  height: 75px;
+}
+@media screen and (max-width: 992px) {
+  .title[_ngcontent-serverApp-c2461943263] {
+    font-size: 2rem;
+    height: auto;
+  }
+}
+.subtitle[_ngcontent-serverApp-c2461943263] {
+  font-size: 1.5rem;
+  color: #c1f6ff;
+  padding: 5px 0;
+}
+@media screen and (max-width: 992px) {
+  .subtitle[_ngcontent-serverApp-c2461943263] {
+    font-size: 1.2rem;
+  }
+}
+.description[_ngcontent-serverApp-c2461943263] {
+  font-size: 1.5rem;
+  line-height: 20px;
+}
+@media screen and (max-width: 992px) {
+  .description[_ngcontent-serverApp-c2461943263] {
+    font-size: 1.1rem;
+  }
+}
+.img[_ngcontent-serverApp-c2461943263] {
+  float: left;
+  width: 100px;
+  height: 100px;
+  padding-right: 12px;
+}
+.bottom-panel[_ngcontent-serverApp-c2461943263] {
+  text-align: center;
+  clear: both;
+  padding-top: 12px;
+  align-self: end;
+}
+.container[_ngcontent-serverApp-c2461943263] {
+  min-height: 100%;
+  padding-bottom: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+}
+@media screen and (max-width: 992px) {
+  .container[_ngcontent-serverApp-c2461943263] {
+    padding-bottom: 12px;
+  }
+}
+[_nghost-serverApp-c2461943263] {
+  display: block;
+  height: 100%;
+}
+.list[_ngcontent-serverApp-c2461943263] {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+@media screen and (max-width: 992px) {
+  .list[_ngcontent-serverApp-c2461943263] {
+    flex-direction: column;
+  }
+}
+.list-element[_ngcontent-serverApp-c2461943263] {
+  padding: 0 10px;
+}
+@media screen and (max-width: 992px) {
+  .list-element[_ngcontent-serverApp-c2461943263] {
+    padding: 10px 0;
+  }
+}
+.icon[_ngcontent-serverApp-c2461943263] {
+  font-size: 3rem;
+  padding-bottom: 12px;
+  color: #3b38cd;
+}
+@media screen and (max-width: 992px) {
+  .icon[_ngcontent-serverApp-c2461943263] {
+    font-size: 3rem;
+  }
+}
+.card[_ngcontent-serverApp-c2461943263]:hover {
+  background-color: rgba(132, 160, 221, 0.5);
+}
+.footer[_ngcontent-serverApp-c2461943263] {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80px;
+}
+@media screen and (max-width: 992px) {
+  .footer[_ngcontent-serverApp-c2461943263] {
+    position: unset;
+    height: unset;
+    margin-top: 100px;
+  }
+}
+.disclaimer[_ngcontent-serverApp-c2461943263] {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #faf5f5;
+  border-radius: 8px;
+  line-height: 14px;
+}
+</style><link id="chromealerabat-link" rel="stylesheet" type="text/css" href="chrome-extension://dacdinoicboceafielngnmjjplncljhj/content.css"></head>
 <body>
-    <header>
-        <h1>Financial Panda</h1>
-    </header>
+<app-root _nghost-serverapp-c3104568421="" ng-version="16.2.8"><div _ngcontent-serverapp-c3104568421="" class="container"><router-outlet _ngcontent-serverapp-c3104568421=""></router-outlet><app-welcome _nghost-serverapp-c2461943263=""><div _ngcontent-serverapp-c2461943263="" class="container"><div _ngcontent-serverapp-c2461943263="" class="logo"></div><ul _ngcontent-serverapp-c2461943263="" class="list"><li _ngcontent-serverapp-c2461943263="" class="list-element"><div _ngcontent-serverapp-c2461943263="" class="card"><div _ngcontent-serverapp-c2461943263="" class="highlights"><span _ngcontent-serverapp-c2461943263="" nz-icon="" nztype="translation" nztheme="outline" class="anticon icon anticon-translation" ng-reflect-nz-type="translation" ng-reflect-nz-theme="outline"><svg viewBox="64 64 896 896" focusable="false" fill="currentColor" width="1em" height="1em" data-icon="translation" aria-hidden="true"><defs><style></style></defs><path d="M140 188h584v164h76V144c0-17.7-14.3-32-32-32H96c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h544v-76H140V188z"></path><path d="M414.3 256h-60.6c-3.4 0-6.4 2.2-7.6 5.4L219 629.4c-.3.8-.4 1.7-.4 2.6 0 4.4 3.6 8 8 8h55.1c3.4 0 6.4-2.2 7.6-5.4L322 540h196.2L422 261.4a8.42 8.42 0 00-7.7-5.4zm12.4 228h-85.5L384 360.2 426.7 484zM936 528H800v-93c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v93H592c-13.3 0-24 10.7-24 24v176c0 13.3 10.7 24 24 24h136v152c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8V752h136c13.3 0 24-10.7 24-24V552c0-13.3-10.7-24-24-24zM728 680h-88v-80h88v80zm160 0h-88v-80h88v80z"></path></svg></span><h1 _ngcontent-serverapp-c2461943263="" class="title"><a style="text-decoration:none; color: #3b38cd !important;" href="https://app.financialpanda.pl/app/insiders">Insider transactions</a></h1></div><div _ngcontent-serverapp-c2461943263="" class="content"><p _ngcontent-serverapp-c2461943263="" class="description"></p></div></div></li></ul></div><div _ngcontent-serverapp-c2461943263="" class="footer"><div _ngcontent-serverapp-c2461943263=""><p _ngcontent-serverapp-c2461943263=""><span _ngcontent-serverapp-c2461943263="">© 2024 Financial Panda</span> | <span _ngcontent-serverapp-c2461943263="">RepoGamesStudio</span> | <span _ngcontent-serverapp-c2461943263="">Contact: RepoGamesStudio@gmail.com</span> | <span _ngcontent-serverapp-c2461943263="">v0.1</span></p></div><div _ngcontent-serverapp-c2461943263="" class="disclaimer"><p _ngcontent-serverapp-c2461943263=""><strong _ngcontent-serverapp-c2461943263="">Trading Warning:</strong> Trading is risky, and you may lose some or all of your invested capital. The content published on the portal is for informational and educational purposes only.</p><p _ngcontent-serverapp-c2461943263="">They do not constitute any kind of financial advice or investment recommendation. The financialpanda.pl takes no responsibility for data accuracy and completeness as it relies on third party providers. The financialpanda.pl portal does not assume any responsibility for investment decisions made on the basis of reading the content contained therein.</p></div></div></app-welcome><!--container--></div></app-root>
 
-    <div class="container">
-        <section>
-            <h1>Welcome to Financial Panda</h1>
-            <p>Your trusted partner for financial solutions.</p>
-            <a href="https://app.financialpanda.pl/" class="cta-button" target="_blank">Go to Financial Panda</a>
-        </section>
-    </div>
-
-    <footer>
-        &copy; 2024 Financial Panda. All rights reserved.
-    </footer>
-</body>
-</html>
+</body></html>
