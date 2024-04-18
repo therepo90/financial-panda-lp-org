@@ -1,2 +1,2 @@
 # financial-panda-lp
-trg
+trg/
