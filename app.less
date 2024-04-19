@@ -372,7 +372,7 @@ body {
 @media screen and (max-width: 992px) {
   body {
     font-size: 16px;
-    background: url(/bg7_mobile-min.jpg);
+    background-image: url(/bg7_mobile-min.jpg);
   }
 }
 
@@ -450,8 +450,8 @@ body {
 
 .logo[_ngcontent-serverApp-c2461943263] {
    cursor: pointer;
-   width: 250px;
-   height: 165px;
+   width: 200px;
+   height: 130px;
    display: block;
    background-image: url(/logo1.png);
    background-color: transparent;
@@ -471,14 +471,16 @@ body {
   .logo[_ngcontent-serverApp-c2461943263] {
     margin-bottom: 1rem;
     margin-top: 1rem;
+    width: 250px;
+    height: 165px;
   }
 }
 
 .card[_ngcontent-serverApp-c2461943263] {
   width: 251px;
-  height: 287px;
+  height: 200px;
   background: rgba(255, 255, 255, 0.8);
-  padding: 30px 20px;
+  padding: 15px 20px;
   box-shadow: 5px 5px 5px black;
   border-radius: 30px;
   display: block;
@@ -497,20 +499,30 @@ body {
 .content[_ngcontent-serverApp-c2461943263] {
   color: black;
   overflow: hidden;
-  padding-top: 12px;
-}
+  }
 
 .highlights[_ngcontent-serverApp-c2461943263] {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+@media screen and (max-width: 992px) {
+  .highlights[_ngcontent-serverApp-c2461943263] {
+    display: block;
+    align-items: unset;
+    justify-content: unset;
+  }
 }
 
 .title[_ngcontent-serverApp-c2461943263] {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #3b38cd;
   display: block;
   border-bottom: 1px solid #3b38cd;
   padding-bottom: 8px;
-  height: 95px;
 }
 
 @media screen and (max-width: 992px) {
@@ -533,10 +545,9 @@ body {
 }
 
 .description[_ngcontent-serverApp-c2461943263] {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   line-height: 20px;
-  text-align: center;
-}
+ }
 
 @media screen and (max-width: 992px) {
   .description[_ngcontent-serverApp-c2461943263] {
@@ -604,13 +615,14 @@ body {
 
 .icon[_ngcontent-serverApp-c2461943263] {
   font-size: 3rem;
-  padding-bottom: 12px;
+
   color: #3b38cd;
 }
 
 @media screen and (max-width: 992px) {
   .icon[_ngcontent-serverApp-c2461943263] {
     font-size: 3rem;
+    padding-bottom: 12px;
   }
 }
 
@@ -619,9 +631,6 @@ body {
 }
 
 .footer[_ngcontent-serverApp-c2461943263] {
-  position: fixed;
-  bottom: 0;
-  left: 0;
   width: 100%;
   background-color: #333;
   color: #fff;
@@ -631,7 +640,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 115px;
+  height: 155px;
 }
 
 @media screen and (max-width: 992px) {
