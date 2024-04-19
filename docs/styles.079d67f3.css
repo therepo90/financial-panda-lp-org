@@ -3930,7 +3930,7 @@ mark {
   clear: both;
   content: '';
 }
-body[_ngcontent-serverApp-c3104568421] {
+body[_some-router-outlet] {
   font-size: 16px;
 }
 body {
@@ -3951,7 +3951,7 @@ app-root {
   background-color: rgba(255, 255, 255, 0.3);
   min-height: 100vh;
 }
-.fancy-anim-overlay[_ngcontent-serverApp-c3104568421] {
+.fancy-anim-overlay[_some-router-outlet] {
   touch-action: none;
   pointer-events: none;
   width: 100vw;
@@ -3961,7 +3961,7 @@ app-root {
   top: 0;
   left: 0;
 }
-@keyframes _ngcontent-serverApp-c3104568421_diagonalSlide {
+@keyframes _some-router-outlet_diagonalSlide {
   0% {
     transform: translate(-50%, -50%);
   }
@@ -3969,7 +3969,7 @@ app-root {
     transform: translate(-50%, 50%);
   }
 }
-.fancy-anim-overlay[_ngcontent-serverApp-c3104568421]::after {
+.fancy-anim-overlay[_some-router-outlet]::after {
   content: "";
   position: absolute;
   top: 0;
@@ -3977,9 +3977,9 @@ app-root {
   width: 200%;
   height: 200%;
   background: linear-gradient(to bottom right, transparent 50%, #ffffff 50%);
-  animation: _ngcontent-serverApp-c3104568421_diagonalSlide 1s normal linear;
+  animation: _some-router-outlet_diagonalSlide 1s normal linear;
 }
-.loader-overlay[_ngcontent-serverApp-c3104568421] {
+.loader-overlay[_some-router-outlet] {
   position: fixed;
   top: 0;
   left: 0;
@@ -3991,15 +3991,15 @@ app-root {
   align-items: center;
   z-index: 9999;
 }
-.loader[_ngcontent-serverApp-c3104568421] {
+.loader[_some-router-outlet] {
   border: 8px solid #f3f3f3;
   border-top: 8px solid #3498db;
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  animation: _ngcontent-serverApp-c3104568421_spin 1s linear infinite;
+  animation: _some-router-outlet_spin 1s linear infinite;
 }
-@keyframes _ngcontent-serverApp-c3104568421_spin {
+@keyframes _some-router-outlet_spin {
   0% {
     transform: rotate(0deg);
   }
@@ -4030,9 +4030,16 @@ app-root {
     margin-top: 1rem;
   }
 }
+.promo-text {
+  color: #3b38cd;
+  font-weight: bold;
+}
+.hide {
+  display: none !important;
+}
 .card {
-  width: 251px;
-  height: 200px;
+  width: 350px;
+  height: 230px;
   background: rgba(255, 255, 255, 0.8);
   padding: 15px 20px;
   box-shadow: 5px 5px 5px black;
@@ -4045,7 +4052,7 @@ app-root {
 @media screen and (max-width: 992px) {
   .card {
     width: 300px;
-    height: 210px;
+    height: auto;
   }
 }
 .content {
@@ -4056,7 +4063,7 @@ app-root {
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 @media screen and (max-width: 992px) {
   .highlights {
@@ -4071,11 +4078,13 @@ app-root {
   display: block;
   border-bottom: 1px solid #3b38cd;
   padding-bottom: 8px;
+  margin-left: 20px;
 }
 @media screen and (max-width: 992px) {
   .title {
     font-size: 2rem;
     height: auto;
+    margin-left: unset;
   }
 }
 .subtitle {
@@ -4089,12 +4098,12 @@ app-root {
   }
 }
 .description {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 20px;
 }
 @media screen and (max-width: 992px) {
   .description {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
 .img {
@@ -4122,7 +4131,7 @@ app-root {
     padding-bottom: 12px;
   }
 }
-[_nghost-serverApp-c2461943263] {
+app-welcome {
   display: block;
 }
 .list {
