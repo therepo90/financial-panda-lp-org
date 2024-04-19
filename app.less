@@ -474,9 +474,17 @@ app-root {
   }
 }
 
+.promo-text {
+  color: #3b38cd;
+  font-weight: bold;
+}
+
+.hide {
+  display: none !important;
+}
 .card {
-  width: 251px;
-  height: 200px;
+  width: 350px;
+  height: 230px;
   background: rgba(255, 255, 255, 0.8);
   padding: 15px 20px;
   box-shadow: 5px 5px 5px black;
@@ -490,7 +498,7 @@ app-root {
 @media screen and (max-width: 992px) {
   .card {
     width: 300px;
-    height: 210px;
+    height: auto;
   }
 }
 
@@ -503,7 +511,7 @@ app-root {
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 
@@ -521,12 +529,14 @@ app-root {
   display: block;
   border-bottom: 1px solid #3b38cd;
   padding-bottom: 8px;
+  margin-left: 20px;
 }
 
 @media screen and (max-width: 992px) {
   .title {
     font-size: 2rem;
     height: auto;
+    margin-left: unset;
   }
 }
 
@@ -543,13 +553,13 @@ app-root {
 }
 
 .description {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   line-height: 20px;
  }
 
 @media screen and (max-width: 992px) {
   .description {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 }
 
