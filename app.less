@@ -357,7 +357,7 @@ mark {
   content: '';
 }
 
-body[_ngcontent-serverApp-c3104568421] {
+body[_some-router-outlet] {
   font-size: 16px;
 }
 
@@ -382,11 +382,11 @@ app-root {
   min-height: 100vh;
 }
 
-.container[_ngcontent-serverApp-c3104568421] {
+.container[_some-router-outlet] {
   //height: 100%;
 }
 
-.fancy-anim-overlay[_ngcontent-serverApp-c3104568421] {
+.fancy-anim-overlay[_some-router-outlet] {
   touch-action: none;
   pointer-events: none;
   width: 100vw;
@@ -397,7 +397,7 @@ app-root {
   left: 0;
 }
 
-@keyframes _ngcontent-serverApp-c3104568421_diagonalSlide {
+@keyframes _some-router-outlet_diagonalSlide {
   0% {
     transform: translate(-50%, -50%);
   }
@@ -406,7 +406,7 @@ app-root {
   }
 }
 
-.fancy-anim-overlay[_ngcontent-serverApp-c3104568421]::after {
+.fancy-anim-overlay[_some-router-outlet]::after {
   content: "";
   position: absolute;
   top: 0;
@@ -414,10 +414,10 @@ app-root {
   width: 200%;
   height: 200%;
   background: linear-gradient(to bottom right, transparent 50%, #ffffff 50%);
-  animation: _ngcontent-serverApp-c3104568421_diagonalSlide 1s normal linear;
+  animation: _some-router-outlet_diagonalSlide 1s normal linear;
 }
 
-.loader-overlay[_ngcontent-serverApp-c3104568421] {
+.loader-overlay[_some-router-outlet] {
   position: fixed;
   top: 0;
   left: 0;
@@ -430,16 +430,16 @@ app-root {
   z-index: 9999;
 }
 
-.loader[_ngcontent-serverApp-c3104568421] {
+.loader[_some-router-outlet] {
   border: 8px solid #f3f3f3;
   border-top: 8px solid #3498db;
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  animation: _ngcontent-serverApp-c3104568421_spin 1s linear infinite;
+  animation: _some-router-outlet_spin 1s linear infinite;
 }
 
-@keyframes _ngcontent-serverApp-c3104568421_spin {
+@keyframes _some-router-outlet_spin {
   0% {
     transform: rotate(0deg);
   }
@@ -582,7 +582,7 @@ app-root {
   }
 }
 
-[_nghost-serverApp-c2461943263] {
+app-welcome {
   display: block;
   //height: 100%;
 }
