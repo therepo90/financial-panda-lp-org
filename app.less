@@ -6,3 +6,78 @@
 .navbar{
   position: absolute !important;
 }
+
+
+.exchange-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  @media screen and (max-width: 992px) {
+    //flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+
+  }
+}
+
+.exchange-item {
+  text-align: center;
+  @media screen and (max-width: 992px) {
+    padding: 15px;
+  }
+}
+
+.exchange-logo {
+  width: 150px;
+  height: 60px;
+}
+
+@media screen and (max-width: 992px) {
+  .exchange-logo {
+    width: 110px;
+    height: 50px;
+  }
+}
+
+
+.footer {
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 155px;
+  margin-top: 50px;
+
+  a {
+    color: #1890ff;
+    text-decoration: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
+    transition: color 0.3s;
+    -webkit-text-decoration-skip: objects;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .footer {
+    position: unset;
+    height: unset;
+    margin-top: 100px;
+  }
+}
+
+
+.disclaimer {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #faf5f5;
+  border-radius: 8px;
+  line-height: 14px;
+}
+
