@@ -16,6 +16,15 @@
     </url>
 
     <url>
+        <loc>https://financialpanda.pl/pl</loc>
+        <lastmod>2025-01-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://financialpanda.pl/en" />
+        <xhtml:link rel="alternate" hreflang="pl" href="https://financialpanda.pl" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://financialpanda.pl/pl" />
+    </url>
+    <url>
         <loc>https://financialpanda.pl/en</loc>
         <lastmod>2025-01-27</lastmod>
         <changefreq>monthly</changefreq>
@@ -42,6 +51,31 @@
         <xhtml:link rel="alternate" hreflang="pl" href="https://financialpanda.org" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://financialpanda.org/en" />
     </url>
+    <url>
+        <loc>https://financialpanda.org/pl</loc>
+        <lastmod>2025-01-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://financialpanda.org/en" />
+        <xhtml:link rel="alternate" hreflang="pl" href="https://financialpanda.org" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://financialpanda.org/pl" />
+    </url>
 
+    <url>
+        <loc>https://app.financialpanda.pl</loc>
+        <lastmod>2025-01-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://app.financialpanda.pl" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://app.financialpanda.pl" />
+    </url>
+    <url>
+        <loc>https://app.financialpanda.org</loc>
+        <lastmod>2025-01-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://app.financialpanda.org" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://app.financialpanda.org" />
+    </url>
 
 </urlset>
