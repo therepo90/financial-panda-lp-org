@@ -1,24 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd http://www.w3.org/TR/xhtml11/xhtml11_schema.html http://www.w3.org/2002/08/xhtml/xhtml1-strict.xsd"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/TR/xhtml11/xhtml11_schema.html">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
     <url>
-        <loc>https://financialpanda.pl/</loc>
-        <lastmod>2025-01-27T11:50:53+00:00</lastmod>
+        <loc>https://financialpanda.pl</loc>
+        <lastmod>2025-01-27</lastmod>
+        <changefreq>monthly</changefreq>
         <priority>1.00</priority>
-        <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://financialpanda.pl/index.html"
-        />
-        <xhtml:link
-                rel="alternate"
-                hreflang="x-default"
-                href="https://financialpanda.pl/index.html"
-        />
+        <xhtml:link rel="alternate" hreflang="en" href="https://financialpanda.pl/index_en.html" />
+        <xhtml:link rel="alternate" hreflang="pl" href="https://financialpanda.pl" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://financialpanda.pl" />
+    </url>
+
+    <url>
+        <loc>https://financialpanda.pl/index_en.html</loc>
+        <lastmod>2025-01-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.70</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://financialpanda.pl/index_en.html" />
+        <xhtml:link rel="alternate" hreflang="pl" href="https://financialpanda.pl" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://financialpanda.pl/index_en.html" />
     </url>
 
 </urlset>

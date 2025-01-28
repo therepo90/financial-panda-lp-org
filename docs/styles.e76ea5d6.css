@@ -72,6 +72,19 @@
   border-radius: 8px;
   line-height: 14px;
 }
+.language-flags {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  display: flex;
+  gap: 10px;
+  z-index: 1050;
+}
+.language-flag {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
 html {
   --color-primary: #2f982e;
   --color-secondary: #44c03e;
