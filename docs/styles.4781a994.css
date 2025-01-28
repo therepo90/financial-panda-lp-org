@@ -85,6 +85,9 @@
   height: 30px;
   cursor: pointer;
 }
+.navbar-toggler {
+  margin-top: 20px;
+}
 html {
   --color-primary: #2f982e;
   --color-secondary: #44c03e;
