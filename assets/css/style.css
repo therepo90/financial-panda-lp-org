@@ -171,9 +171,10 @@ h6 {
 	border-bottom: 2px dashed var(--color5);
 	margin-left: -75px;
 }
-.sectioner-header p {
+.sectioner-header p, h2 {
 	color:#818992;
 	font-size: 17px;
+	font-weight: 400;
 }
 .section-content {
 	margin-top: 80px;
@@ -537,7 +538,7 @@ h3 {
 .sectioner-header {
 	width: 90%;
 }
-.sectioner-header p {
+.sectioner-header p, h2 {
 	font-size: 14px;
 }
 .about-btn {

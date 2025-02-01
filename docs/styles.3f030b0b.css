@@ -88,6 +88,10 @@
 .navbar-toggler {
   margin-top: 20px;
 }
+h1.h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+}
 html {
   --color-primary: #2f982e;
   --color-secondary: #44c03e;
