@@ -81,9 +81,9 @@
   z-index: 1050;
 }
 .language-flag {
-  width: 30px;
-  height: 30px;
   cursor: pointer;
+  text-decoration: underline;
+  color: white;
 }
 .navbar-toggler {
   margin-top: 20px;
