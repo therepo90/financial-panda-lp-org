@@ -92,6 +92,7 @@ h1.h1 {
 }
 .vid-cont {
   margin: 0 auto;
+  padding: 20px;
   width: 100%;
   display: flex;
   margin-top: 20px;
