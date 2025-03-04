@@ -1,5 +1,3 @@
-/*@import "reset.less";*/
-/*@import "vendor/picnic.min.less";*/
 .logo-1 {
   width: 150px;
   height: 100px;
@@ -92,42 +90,10 @@ h1.h1 {
   font-size: 1.75rem;
   font-weight: 700;
 }
-html {
-  --color-primary: #2f982e;
-  --color-secondary: #44c03e;
-  --color-tertiary: #559863;
-  --color4: #000000;
-  --color5: #3cb259;
-  --color6: rgba(122, 96, 255, 0.9);
-  --color7: rgba(205, 159, 250, 0.9);
-  --color8: #50b554;
+.vid-cont {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
 }
-/*
-
-body {
-    font-size: 16px; ;
-}
-
-.details-container{
-    margin: 0 auto;
-    margin-top: 20px;
-    max-width: 800px;
-
-    h2 {
-        font-size: 24px;
-        color: #3b38cd;
-    }
-}
-
-.details-content {
-    margin: 20px;
-    background: rgb(255 255 255 / 71%);
-    border-radius: 20px;
-    padding: 20px;
-}
-
-.flag{
-    width: 20px;
-    height: 15px;
-    margin-right: 4px;
-}*/

@@ -1,45 +1,41 @@
+/*@import "reset.less";*/
+/*@import "vendor/picnic.min.less";*/
 .logo-1 {
   width: 150px;
   height: 100px;
 }
-
-.navbar{
+.navbar {
   position: absolute !important;
 }
-
-
 .exchange-container {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  @media screen and (max-width: 992px) {
-    //flex-direction: column;
+}
+@media screen and (max-width: 992px) {
+  .exchange-container {
     justify-content: center;
     flex-wrap: wrap;
-
   }
 }
-
 .exchange-item {
   text-align: center;
-  @media screen and (max-width: 992px) {
+}
+@media screen and (max-width: 992px) {
+  .exchange-item {
     padding: 15px;
   }
 }
-
 .exchange-logo {
   width: 150px;
   height: 60px;
 }
-
 @media screen and (max-width: 992px) {
   .exchange-logo {
     width: 110px;
     height: 50px;
   }
 }
-
-
 .footer {
   width: 100%;
   background-color: #333;
@@ -52,18 +48,16 @@
   flex-direction: column;
   height: 155px;
   margin-top: 50px;
-
-  a {
-    color: #1890ff;
-    text-decoration: none;
-    background-color: transparent;
-    outline: none;
-    cursor: pointer;
-    transition: color 0.3s;
-    -webkit-text-decoration-skip: objects;
-  }
 }
-
+.footer a {
+  color: #1890ff;
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s;
+  -webkit-text-decoration-skip: objects;
+}
 @media screen and (max-width: 992px) {
   .footer {
     position: unset;
@@ -71,8 +65,6 @@
     margin-top: 100px;
   }
 }
-
-
 .disclaimer {
   margin-top: 10px;
   font-size: 12px;
@@ -80,8 +72,6 @@
   border-radius: 8px;
   line-height: 14px;
 }
-
-
 .language-flags {
   position: absolute;
   top: 10px;
@@ -90,22 +80,18 @@
   gap: 10px;
   z-index: 1050;
 }
-
 .language-flag {
   cursor: pointer;
   text-decoration: underline;
   color: white;
 }
-.navbar-toggler
-{
+.navbar-toggler {
   margin-top: 20px;
 }
-
 h1.h1 {
   font-size: 1.75rem;
   font-weight: 700;
 }
-
 .vid-cont {
   margin: 0 auto;
   width: 100%;
@@ -113,3 +99,42 @@ h1.h1 {
   margin-top: 20px;
   justify-content: center;
 }
+html {
+  --color-primary: #2f982e;
+  --color-secondary: #44c03e;
+  --color-tertiary: #559863;
+  --color4: #000000;
+  --color5: #3cb259;
+  --color6: rgba(122, 96, 255, 0.9);
+  --color7: rgba(205, 159, 250, 0.9);
+  --color8: #50b554;
+}
+/*
+
+body {
+    font-size: 16px; ;
+}
+
+.details-container{
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 800px;
+
+    h2 {
+        font-size: 24px;
+        color: #3b38cd;
+    }
+}
+
+.details-content {
+    margin: 20px;
+    background: rgb(255 255 255 / 71%);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.flag{
+    width: 20px;
+    height: 15px;
+    margin-right: 4px;
+}*/
