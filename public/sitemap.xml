@@ -7,7 +7,7 @@
 
     <url>
         <loc>https://financialpanda.pl</loc>
-        <lastmod>2025-01-27</lastmod>
+        <lastmod>2025-03-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.00</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://financialpanda.pl/en" />
@@ -17,7 +17,7 @@
 
     <url>
         <loc>https://financialpanda.pl/pl</loc>
-        <lastmod>2025-01-27</lastmod>
+        <lastmod>2025-03-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.70</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://financialpanda.pl/en" />
@@ -26,7 +26,7 @@
     </url>
     <url>
         <loc>https://financialpanda.pl/en</loc>
-        <lastmod>2025-01-27</lastmod>
+        <lastmod>2025-03-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.70</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://financialpanda.pl/en" />
@@ -35,7 +35,7 @@
     </url>
     <url>
         <loc>https://financialpanda.org</loc>
-        <lastmod>2025-01-27</lastmod>
+        <lastmod>2025-03-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.70</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://financialpanda.org/en" />
@@ -44,7 +44,7 @@
     </url>
     <url>
         <loc>https://financialpanda.org/en</loc>
-        <lastmod>2025-01-27</lastmod>
+        <lastmod>2025-03-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.70</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://financialpanda.org/en" />
@@ -53,7 +53,7 @@
     </url>
     <url>
         <loc>https://financialpanda.org/pl</loc>
-        <lastmod>2025-01-27</lastmod>
+        <lastmod>2025-03-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.70</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://financialpanda.org/en" />
@@ -63,7 +63,7 @@
 
     <url>
         <loc>https://app.financialpanda.pl</loc>
-        <lastmod>2025-01-27</lastmod>
+        <lastmod>2025-03-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.70</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://app.financialpanda.pl" />
@@ -71,7 +71,7 @@
     </url>
     <url>
         <loc>https://app.financialpanda.org</loc>
-        <lastmod>2025-01-27</lastmod>
+        <lastmod>2025-03-29</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.70</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://app.financialpanda.org" />
