@@ -6,16 +6,17 @@
   "scripts": {
     "start": "rm -rf dist && parcel index.html",
     "build": "rm -rf dist && parcel build index.html --experimental-scope-hoisting",
+    "prepare-index:org": "node prepare-index.js docs/index_en.html && node prepare-index.js docs/index.html",
     "prepare-langs": "mkdir -p docs/en && cp -r docs/index_en.html docs/en/index.html && mkdir -p docs/pl && cp -r docs/index.html docs/pl/index.html",
-    "build:prod": "rm -rf docs/* && cross-env NODE_ENV=production parcel build index.html index_en.html --no-source-maps -t browser -d docs --no-minify --public-url ./ && cp -r public/* docs/ && npm run prepare-langs",
+    "build:prod": "rm -rf docs/* && cross-env NODE_ENV=production parcel build index.html index_en.html --no-source-maps -t browser -d docs --no-minify --public-url ./ && cp -r public/* docs/",
     "copy:cname:pl": "cp CNAME_pl docs/CNAME",
     "copy:cname:org": "cp CNAME_org docs/CNAME",
-    "deploy:pl": "npm run build:prod && npm run copy:cname:pl && git add . && git commit -m \" zz\" && git push origin main",
-    "deploy:org": "npm run build:prod && npm run copy:cname:org && git add . && git commit -m \" zz\" && git push origin2 main",
+    "deploy:pl": "npm run build:prod && npm run prepare-langs && npm run copy:cname:pl && git add . && git commit -m \" zz\" && git push origin main",
+    "deploy:org": "npm run build:prod && npm run prepare-index:org && npm run prepare-langs && npm run copy:cname:org && git add . && git commit -m \" zz\" && git push origin2 main",
     "deploy": "npm run deploy:pl && npm run deploy:org"
   },
   "engines": {
-    "node": "v16.20.0"
+    "node": ">=v16.20.0"
   },
   "browserslist": "> 1%, last 2 versions, not dead",
   "keywords": [],
