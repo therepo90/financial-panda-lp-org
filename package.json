@@ -7,6 +7,7 @@
     "start": "rm -rf dist && parcel index.html",
     "build": "rm -rf dist && parcel build index.html --experimental-scope-hoisting",
     "prepare-index:org": "node prepare-index.js docs/index_en.html && node prepare-index.js docs/index.html",
+    "prepare-sitemaps:org": "cp -r docs/sitemap_org.xml docs/sitemap.xml",
     "prepare-langs": "mkdir -p docs/en && cp -r docs/index_en.html docs/en/index.html && mkdir -p docs/pl && cp -r docs/index.html docs/pl/index.html",
     "build:prod": "rm -rf docs/* && cross-env NODE_ENV=production parcel build index.html index_en.html --no-source-maps -t browser -d docs --no-minify --public-url ./ && cp -r public/* docs/",
     "copy:cname:pl": "cp CNAME_pl docs/CNAME",
