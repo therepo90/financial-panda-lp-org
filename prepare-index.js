@@ -12,7 +12,9 @@ const run = async () => {
     // fs promises read
     const file = await fs.readFile(path, 'utf8');
     // replace https://financialpanda.pl/ with https://financialpanda.org/
-    const newFile = file.replace(/financialpanda\.pl/g, 'financialpanda.org');
+    let newFile = file.replace(/financialpanda\.pl/g, 'financialpanda.org');
+    // te z apki niech zostana
+    newFile = file.replace(/app\.financialpanda\.org/gi, 'app.financialpanda.pl');
     // write the file back
     console.log('writing')
     await fs.writeFile(path, newFile);
