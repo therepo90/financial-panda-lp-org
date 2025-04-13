@@ -12,28 +12,8 @@
         <priority>1.00</priority>
         <xhtml:link rel="alternate" hreflang="en" href="https://financialpanda.pl/en" />
         <xhtml:link rel="alternate" hreflang="pl" href="https://financialpanda.pl" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://financialpanda.pl" />
-    </url>
-
-    <url>
-        <loc>https://financialpanda.pl/pl</loc>
-        <lastmod>2025-03-29</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.70</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://financialpanda.pl/en" />
-        <xhtml:link rel="alternate" hreflang="pl" href="https://financialpanda.pl" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://financialpanda.pl/pl" />
-    </url>
-    <url>
-        <loc>https://financialpanda.pl/en</loc>
-        <lastmod>2025-03-29</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.70</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://financialpanda.pl/en" />
-        <xhtml:link rel="alternate" hreflang="pl" href="https://financialpanda.pl" />
         <xhtml:link rel="alternate" hreflang="x-default" href="https://financialpanda.pl/en" />
     </url>
-
     <url>
         <loc>https://app.financialpanda.pl</loc>
         <lastmod>2025-03-29</lastmod>
