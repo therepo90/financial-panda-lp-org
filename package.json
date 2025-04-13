@@ -13,7 +13,7 @@
     "copy:cname:pl": "cp CNAME_pl docs/CNAME",
     "copy:cname:org": "cp CNAME_org docs/CNAME",
     "deploy:pl": "npm run build:prod && npm run prepare-langs && npm run copy:cname:pl && git add . && git commit -m \" zz\" && git push origin main",
-    "deploy:org": "npm run build:prod && npm run prepare-index:org && npm run prepare-langs && npm run copy:cname:org && git add . && git commit -m \" zz\" && git push origin2 main",
+    "deploy:org": "npm run build:prod && npm run prepare-index:org && npm run prepare-langs && npm run copy:cname:org && npm run prepare-sitemaps:org && git add . && git commit -m \" zz\" && git push origin2 main",
     "deploy": "npm run deploy:pl && npm run deploy:org"
   },
   "engines": {
