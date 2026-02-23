@@ -4,13 +4,22 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
         xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
     <url>
-        <loc>https://financialpanda.org</loc>
+        <loc>https://financialpanda.pl</loc>
+        <lastmod>2026-02-01</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>1.00</priority>
+        <xhtml:link rel="alternate" hreflang="en" href="https://financialpanda.pl/en" />
+        <xhtml:link rel="alternate" hreflang="pl" href="https://financialpanda.pl" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://financialpanda.pl/en" />
+    </url>
+    <url>
+        <loc>https://app.financialpanda.pl</loc>
         <lastmod>2026-02-01</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.70</priority>
-        <xhtml:link rel="alternate" hreflang="en" href="https://financialpanda.org/en" />
-        <xhtml:link rel="alternate" hreflang="pl" href="https://financialpanda.org" />
-        <xhtml:link rel="alternate" hreflang="x-default" href="https://financialpanda.org/en" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://app.financialpanda.pl" />
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://app.financialpanda.pl" />
     </url>
 </urlset>
